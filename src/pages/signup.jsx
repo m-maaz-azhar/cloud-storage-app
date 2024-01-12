@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useRouter } from "next/router";
-import Header from "../components/header";
+import Header from "../components/Header";
 import { withSessionSsr } from "./api/lib/withSession";
 
 export default function SignUp() {
